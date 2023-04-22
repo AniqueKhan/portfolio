@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TIME_ZONE = "Asia/Karachi"
 
 # Application definition
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'anique',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
